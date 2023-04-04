@@ -36,13 +36,14 @@ const ProfilePage = () => {
     const [lic_expry, setlic_expry] = useState()
     const [selectcity, setselectcity] = useState()
     const [selectlocation, setselectlocation] = useState()
-    const [isactive,setIsactive]= useState(false)
+    
     useEffect(() => {
      getData()
      fetchCity()
+     fetchLocation()
   fetchNation()
-  setIsactive(true)
-    }, [city])
+ 
+    }, [])
     
     const getData = async()=>{
       await axios({
@@ -66,8 +67,8 @@ const ProfilePage = () => {
         setaddress1(res.data.Billing_Address_Line_1)
         setaddress2(res.data.Billing_Address_Line_2)
         setCountry(res.data.Billing_country_id)
-        setcity(res.data.Billing_city_id)
-        setlocation(res.data.Billing_location_id)
+        setselectcity(res.data.Billing_city_id)
+        setselectlocation(res.data.Billing_location_id)
 
       }).catch((err) => {
         if(err.request){ console.log(err.request) } if(err.response){ 
@@ -110,13 +111,13 @@ const ProfilePage = () => {
   }
   const handelCity=(event)=>{
     setselectcity(event.target.value)
-    fetchLocation(event.target.value) 
     console.log(event.target.value,'city selected');
+    fetchLocation(event.target.value)
   }
   const fetchLocation=async(data)=>{
 
     await axios({
-      url:`${REACT_APP_SERVER_URL}/api/fetch/city/location-web?city_id=${Number(data)}`,
+      url:`${REACT_APP_SERVER_URL}/api/fetch/city/location-web?city_id=${data?Number(data):selectcity}`,
       method:"GET",
   }).then((response)=>{
       console.log(response.data,'location');
@@ -745,7 +746,6 @@ const ProfilePage = () => {
                     <select name="nationality" onChange={(e)=>{setCountry(e.target.value)}} value={Country}>
                     {Nation.map((nat)=>{
                       return(
-
                         <option key={nat.country_id} value={nat.country_id}>{nat.country_name}</option>
                       )
                     })}
@@ -753,25 +753,24 @@ const ProfilePage = () => {
                   </div>
                   <div className="box_area1">
                     <label>City </label>
-                    <select onChange={handelCity}>
+                    <select onChange={handelCity} value={selectcity}>
                     <option disabled selected value="">select  city</option>
-                    {/* {city.map((e)=>{
+                    {city.map((e)=>{
                                 return(
-
                                     <option key={e.city_id} value={e.city_id}>{e.city_name}</option>
                                 )
-                            })} */}
+                            })}
                     </select>
                   </div>
                   <div className="box_area1">
                     <label>Location </label>
-                    <select onChange={handleLocation}>
+                    <select onChange={handleLocation} value={selectlocation}>
                     <option disabled selected value="">select  Location</option>
-                         {/* {location.map((e)=>{
+                         {location.map((e)=>{
                           return(
                             <option value={e.locationId}>{e.locationName}</option>
                           )
-                         })} */}
+                         })}
                          </select>
                   </div>
                 </div>

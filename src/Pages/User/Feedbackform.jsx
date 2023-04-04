@@ -4,6 +4,7 @@ import SideNav from '../../Components/SideNav'
 import Navbar from '../../Components/Navbar'
 import toast, { Toaster } from 'react-hot-toast'
 import axios from 'axios'
+import { Link, useNavigate } from 'react-router-dom'
 
 const Feedbackform = () => {
     const { REACT_APP_SERVER_URL } = process.env;
@@ -14,7 +15,13 @@ const Feedbackform = () => {
     const [email, setemail] = useState()
     const [message, setmessage] = useState()
     const [messgtype, setmessgtype] = useState()
-
+    const navigate = useNavigate();
+    const handleLogout=async()=>{ 
+      window.localStorage.removeItem('token');
+      window.localStorage.removeItem('cus_ID');
+      window.localStorage.removeItem('name');
+      navigate('/')
+    }
     useEffect(() => {
      getData()
     }, [])
@@ -72,7 +79,22 @@ const Feedbackform = () => {
         
         <div className="container-fluid">
           <div className="row">
-            <SideNav/>
+            <div className="menu-button_p">
+              <button>Menu</button>
+            </div>
+            <div className="col-lg-3  col-md-3 col-sm-12 Listing_sidebar myaccount_sidebar">
+              <ul>
+                <li><Link to={'/profile'} className='sidelink'>Profile</Link></li>
+                <li><Link to={'/rentalhistory'} className='sidelink'>Rental History</Link></li>
+                <li><Link to={'/notification'} className='sidelink'>Notifications</Link></li>
+                <li className="active-item"><Link to={'/feedback'} className='sidelink'>Feedback</Link></li>
+                <li><Link to={'/reservation'} className='sidelink'>Reservations</Link></li>
+                <li><Link to={'/trafficviolations'} className='sidelink'>Traffic Violations</Link></li>
+                <li><Link to='/changepassword' className='sidelink'>Change Password</Link></li>
+                <li><Link  onClick={handleLogout} className='sidelink'>Sign Out</Link></li>
+              </ul>
+              
+            </div>
            
             <div className="col-lg-9  col-md-9 col-sm-12 Listing_block profile_det">
                 <form onSubmit={handleSumbit}>

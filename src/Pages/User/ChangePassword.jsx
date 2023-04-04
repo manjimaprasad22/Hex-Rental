@@ -4,9 +4,11 @@ import Footer from '../../Components/Footer'
 import toast, { Toaster } from 'react-hot-toast'
 import axios from 'axios'
 import SideNav from '../../Components/SideNav'
+import { Link, useNavigate } from 'react-router-dom'
 
 const ChangePassword = () => {
     const { REACT_APP_SERVER_URL } = process.env;
+    const navigate = useNavigate();
     const token = localStorage.getItem("token");
     const cus_ID = localStorage.getItem("cus_ID");
     const [oldpassword, setoldpassword] = useState()
@@ -70,7 +72,12 @@ const ChangePassword = () => {
                 }})
         }
     }
-
+    const handleLogout=async()=>{ 
+      window.localStorage.removeItem('token');
+      window.localStorage.removeItem('cus_ID');
+      window.localStorage.removeItem('name');
+      navigate('/')
+    }
   return (
   
           <div>
@@ -80,24 +87,23 @@ const ChangePassword = () => {
         
         <div className="container-fluid">
           <div className="row">
-           
-            {/* <div className="menu-button_p">
+          <div class="menu-button_p">
               <button>Menu</button>
             </div>
-            <div className="col-lg-3  col-md-3 col-sm-12 Listing_sidebar myaccount_sidebar">
+            <div class="col-lg-3  col-md-3 col-sm-12 Listing_sidebar myaccount_sidebar">
               <ul>
-                <li ><a>Profile</a></li>
-                <li><a>Rental History</a></li>
-                <li><a>Notifications</a></li>
-                <li><a>Feedback</a></li>
-                <li><a>Reservations</a></li>
-                <li><a>Traffic Violations</a></li>
-                <li className="active-item"><a>Change Password</a></li>
-                <li><a>Sign Out</a></li>
+                <li ><Link to={'/profile'} className='sidelink'>Profile</Link></li>
+                <li><Link to={'/rentalhistory'} className='sidelink'>Rental History</Link></li>
+                <li><Link to={'/notification'} className='sidelink'>Notifications</Link></li>
+                <li><Link to={'/feedback'} className='sidelink'>Feedback</Link></li>
+                <li><Link to={'/reservation'} className='sidelink'>Reservations</Link></li>
+                <li><Link to={'/trafficviolations'} className='sidelink'>Traffic Violations</Link></li>
+                <li class="active-item"><Link to='/changepassword' className='sidelink'>Change Password</Link></li>
+                <li><Link  onClick={handleLogout} className='sidelink'>Sign Out</Link></li>
               </ul>
               
-            </div> */}
-            <SideNav/>
+            </div>
+            
             <div className="col-lg-9  col-md-9 col-sm-12 Listing_block profile_det">
           
               <div className="form_auth">

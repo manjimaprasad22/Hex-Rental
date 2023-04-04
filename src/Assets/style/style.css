@@ -628,6 +628,7 @@ span.orig_p {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-image: url(../images/auth.jpg);
 }
 
 .cover-shadow {
@@ -1913,4 +1914,7 @@ h5.footer-category {
     text-decoration: none;
     color: #fff;
     cursor: not-allowed;
+}
+.sidelink:hover{
+    text-decoration: none;
 }
