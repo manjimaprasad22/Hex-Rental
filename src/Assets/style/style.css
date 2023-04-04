@@ -1,0 +1,1916 @@
+html{overflow-x: hidden}
+.form-control:focus{box-shadow: none !important;}
+/* Banner */
+/* .banner-bg{background-size: 1000px;background-repeat: no-repeat;top: -20px;position: relative;top: 0;right: 0;} */
+.banner-surcle-bg{position: absolute;
+    top: 0;   
+     right: 0px;
+    width: 75%;
+    z-index: -1;
+}
+
+.hex-login{background-color: #008DF3;
+            border-radius: 5px;
+           }
+.hex-login-dropdown{
+    color: #fff !important;
+    font-size: 12px;
+    font-family: 'Chakra Petch', sans-serif;
+    
+}
+.time-box{
+    width: 100%;
+    background: transparent;
+    border: 1px solid #ced4da;
+    outline: none;
+    padding: 7px 12px;
+    color: #495057 !important;
+}
+.hedear-top.active {
+    top: 0px;
+    transition: all 0.3s ease-in-out;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    background: #fff;
+    box-shadow: 0px 3px 6px #00000029;
+}
+.navbar-nav .dropdown-menu{position: absolute !important;}
+.hedear-top.active .total-banner{
+    margin-bottom: 0 !important;
+}
+.banner-bg{
+    margin-top: 0px;
+}
+.form-register-btn{font-size: 12px;
+    padding: 5px 30px ;}
+.input-group.date .input-group-addon {
+    cursor: pointer;
+    /* background: rgb(231, 231, 231); */
+    border: 1px solid #ced4da;
+    padding: 6px;
+    border-radius: 0 5px 5px 0;
+    border-left: none;
+}
+.input-group-addon{font-size: 12px !important;}
+.date-picker-border{border-right: none !important;}
+.rental-nav-btn{margin-left: 20px !important;display: flex;}
+.language .hex-login{margin-left: 5px;
+    background-color: #DDDDDD;
+    font-size: 12px;
+    font-family: 'Chakra Petch', sans-serif;}
+    .navbar-expand-lg .navbar-collapse{
+        justify-content: end;
+    }
+.hex-language{color: #000 !important;}
+    /* Underline From Center */
+.hvr-underline-from-center {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+  }
+  .hvr-underline-from-center:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 51%;
+    right: 51%;
+    bottom: 0;
+    background:  #008DF3;
+    height: 1px;
+    -webkit-transition-property: left, right;
+    transition-property: left, right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  
+  .hvr-underline-from-center:hover:before,
+  .hvr-underline-from-center:focus:before,
+  .hvr-underline-from-center:active:before {
+    left: 0;
+    right: 0;
+  }
+.nav-category{
+    font-size: 12px;
+    font-family: 'Chakra Petch', sans-serif;
+   
+}
+.hex-rental-logo{width: 140px !important;}
+.nav-category:hover{font-weight: 800;color: #008DF3 !important;}
+.banner-car-img{text-align: right !important;
+    margin-top: 70px;}
+.banner-registration{box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
+    background: #fff;
+                    padding: 30px;
+                border-radius: 10px;
+                margin-top: 9px;
+            width: 400px;
+            position: relative;
+            z-index: 9;}
+.banner-registration-registration{text-align: center;}
+.banner-form-label{font-size: 12px !important;
+                    color: #666666;
+                    font-family: 'Chakra Petch', sans-serif;}
+.banner-registration .form-group{margin-bottom:5px !important;}
+.banner-register-name{font-family: 'Chakra Petch', sans-serif;
+                    font-size: 20px;
+                    font-weight: 700;
+                    color: #00477a;}
+.total-banner{
+    margin-bottom: 0px;
+
+}
+.banner-bg{
+    margin-top: 100px;
+}
+.hex-login:hover{background-color: #0079d1;}
+.ar-btn:hover{background-color: #bebebe;}
+.form-register{text-align: center; font-family: 'Chakra Petch', sans-serif;margin-top: 15px;}
+.bootstrap-datetimepicker-widget table td.day{color: #0079d1;font-weight: 600;}
+.bootstrap-datetimepicker-widget table th{color: #00477a !important;}
+
+
+
+.service-total-col{position: relative;}
+.srviceimg-bg{position: absolute;top: -40%;width: 60%;right: 0;opacity: 35%;}
+.service{padding-top: 100px;padding-bottom: 100px;}
+.limousine{text-align: right;}
+.service-head{font-size: 15px;
+    font-weight: 700;
+    font-family: 'Chakra Petch', sans-serif;
+    padding-top: 60px;}
+    .service-discription{font-size: 14px;
+       
+        font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0;}
+    .service-more-btn{
+        font-size: 15px;
+        color:#008DF3;
+        font-weight: 700;
+        font-family: 'Montserrat', sans-serif;
+        text-decoration: none !important;
+    }
+.service-arrow{font-size: 12px;}
+
+    
+    .car-for-sale{margin-top: 30px;
+        text-align: right;}
+    .total-service-rightbx{margin-top: -80px;}
+    .quick-service{margin-top: 30px;}
+
+    .features{text-align: center;
+        position: relative !important;
+        margin-bottom: 100px;}
+    .features-img{}
+    .features-img-bg{width: 80%;}
+   .towing-img{background-color: #008DF3;
+    border-radius: 50%;
+   
+    margin: auto;
+    width: 65px;height: 65px;
+    padding-top: 15px;
+    box-shadow: 0px 5px 5px 0px rgba(105, 105, 105, 0.5);}
+   .towing-txt{margin-bottom: 0;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;}
+   .towing-bx{width: 80px;
+            text-align: center;
+            position: absolute;
+            bottom: -10%;
+            left: 17%;}
+    .jumb-start-bx{width: 100px;   
+        text-align: center;
+        position: absolute;
+        bottom: 75%;
+        left: 35%;}
+    .service-icon{width: 30px;}
+    .fuel-bx{width: 100px;   
+        text-align: center;
+        position: absolute;
+        bottom: 70%;
+        left: 59%;
+
+    }
+    .tire-bx{width: 100px;   
+        text-align: center;
+        position: absolute;
+        bottom: 0%;
+        left: 65%;
+
+    }
+
+
+    .list-car-total-col{position: relative;}
+    .carlist-background{position: absolute;top: -40%;width: 55%;}
+    .car-list{ font-family: 'Chakra Petch', sans-serif;
+    text-align: center;
+    font-weight: 700;
+    color: #00477a;}
+    .cars{box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
+        padding: 15px;
+        width: 95%;
+        background-color: #fff;
+        margin: auto;
+    border-radius: 20px;}
+    .cars-img{border-radius: 10px;}
+    .car-details{display: flex;
+    justify-content: space-between;
+    padding-top: 15px;}
+    .car-name{margin-bottom: 0;
+        color: #00477a;
+        font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+font-weight: 700;
+width: 150px !important; 
+
+overflow: hidden !important;
+white-space: nowrap; 
+text-overflow: ellipsis !important; 
+}
+.car-price{margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;}
+.car-price-span{font-weight: 500;
+    font-size: 10px;text-decoration: line-through;color: #bebebe;font-weight: normal;padding-right: 5px;}
+    .car-booking{padding-top: 10px;
+    }
+    .car-price-btn{font-family: 'Chakra Petch', sans-serif;
+        padding: 5px 5px;
+        border-radius: 5px;
+        background-color: #008DF3;
+        font-size: 14px;
+        color: #fff;
+ }
+ .list-of-cars{padding-top: 45px;}
+ .list-car{margin-bottom: 100px;}
+ .car-price-btn:hover{background-color: #0079d1;text-decoration: none;color: #fff;}
+
+
+ .app{
+    background-image: url(../images/app-background.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 400px;
+    background-size: 750px;
+    margin-top: 100px;
+    margin-bottom: 100px;}
+ .app-mobiles{position: relative;}  
+
+
+ .apple-phone{width: 80%;}
+ .android-phone{width: 80%;}
+ .app-txt-head{font-family: 'Chakra Petch', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    color: #00477a;}
+ .app-txt{border-bottom: 1px solid #ccc;}
+ .app-txt-bx{padding-top: 40px;}
+ .app-description{padding-top: 15px;}
+.google-app{width: 150px;}
+.app-descriptiontxt{    font-size: 14px;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0;
+    padding-bottom: 15px;}
+
+
+ .footer-bx{background: #008DF3;padding-top: 30px;padding-bottom: 50px;}
+ .footer-ul{list-style: none !important; padding: 0;}
+ .massive-choices{color: #d3fffb;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;}
+.massive-choices:hover{color: #fff;}
+.footer-category{
+    color: #fff;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.custom-file-label{background: transparent !important;border-color: #fff;}
+.news-submit:lang(en)~.custom-file-label::after {
+    content: "SUBMIT" !important;
+    background-color: #fff;
+    font-family: 'Chakra Petch', sans-serif;
+}
+.follow-us{padding-top: 30px;}
+.follow-icon{color: #fff;font-size: 25px;margin-right: 15px;}
+.follow-icon:hover{color: #ccc;}
+.copy-right{background-color: #00477a;color: #fff;text-align: center;padding: 10px 0;}
+.copy-right-txt{font-family: 'Montserrat', sans-serif;margin-bottom: 0 !important;font-size: 12px;}
+.footer-svg {
+    margin-top: -85px;
+    width: 100%;
+}
+.footer-submit{display: flex;}
+.footer-submit-form{background-color: transparent !important;border-radius: 5px 0 0 5px;border: 2px solid #fff;}
+.footer-submit-btn{background-color: #fff !important;border-radius: 0px 5px 5px 0px;border: 2px solid #fff;color: #0079d1;font-weight: 700;padding: 5px 10px;text-decoration: none !important;}
+
+/*Listing*/
+
+.Listing_sidebar {
+    background: #F1F2F2;
+    border-radius: 15px;
+}
+.Listing_sidebar > h3 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 23px;
+    text-align: left;
+    color: #000000;
+    font-family: 'Chakra Petch', sans-serif;
+    margin: 0 !important;
+    margin-bottom: 40px !important;
+}
+.filter_block h4 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: left;
+    color: #000000;
+    border-bottom: 1px solid #E1E1E1;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 0 15px;
+        margin: 0;
+    margin-bottom: 20px;
+}
+.filter_block li, .filter_block ul {
+    list-style: none;
+    padding: 0 !important;
+    margin: 0 !important;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+
+.filter_block li {
+    padding: 5px 0;
+}
+
+.filter_block li input {
+    width: 15px;
+    text-align: left;
+    margin-top: 5px;
+}
+.filter_block li label {
+    display: flex !important;
+    align-items: flex-start;
+    line-height: 20px;
+    gap:10px;
+}
+.Listing_sidebar {
+    background: #F1F2F2;
+    border-radius: 15px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+span.filter_more {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #008DF3;
+    display: block;
+    text-align: right;
+}
+.filter_block {
+    margin-bottom: 25px;
+}
+.image_block {
+    width: 48%;
+    max-width: 400px;
+}
+.image_block img {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.single_block {
+    display: flex;
+    gap: 25px;
+}
+.detail_block h2 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 35px;
+    text-transform: capitalize;
+    color: #000000;
+    font-family: 'Chakra Petch', sans-serif;
+    border-bottom: 1px solid #E1E1E1;
+    padding-bottom: 5px;
+    margin-bottom: 25px;
+}
+.specification ul {
+    list-style: none;
+    display: flex;
+    gap: 5px 12px;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+.specification li {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-transform: capitalize;
+    color: #555555;
+    font-family: 'Montserrat', sans-serif;
+}
+.detail_block {
+    width: 52%;
+}
+.single_block {
+    display: flex;
+    gap: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px -6px rgb(0 0 0 / 25%);
+    border-radius: 20px;
+    padding: 25px;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.listing_flex {
+    padding-left: 20px;
+    display: block;
+    width: 100%;
+}
+.content_listing {
+    display: block;
+    margin-bottom: 100px;
+}
+.specification {
+    margin-bottom: 25px;
+}
+span.offer_p {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 35px;
+    text-transform: capitalize;
+    color: #009DE0;
+    font-family: 'Chakra Petch', sans-serif;
+}
+span.orig_p {
+    color: #081F32;
+    font-size: 16px;
+    text-decoration: line-through;
+}
+.rate_details p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    text-transform: capitalize;
+    color: #999999;
+        margin: 0;
+
+}
+.rate_details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.rate_details button {
+    background: #065286;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Chakra Petch', sans-serif;
+    padding: 10px 15px;
+    border: unset;
+    cursor: pointer;
+}
+.rate_details button:focus{
+    outline: none;
+}
+.sort-box {
+    text-align: right;
+    display: flex;
+    width: 100%;
+    padding-bottom: 25px;
+    justify-content: flex-end;
+}
+.sort-box button {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+    background: transparent;
+    border: none;
+    display: block;
+    float: right;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+/* start of core style */
+
+
+.search-edit input[type=date][placeholder]:invalid::-webkit-datetime-edit, .search-edit input[type=month][placeholder]:invalid::-webkit-datetime-edit, input[type=week][placeholder]:invalid::-webkit-datetime-edit {
+      display: none;
+    }
+
+.search-edit input[type=date][placeholder]:invalid::before, .search-edit input[type=month][placeholder]:invalid::before, input[type=week][placeholder]:invalid::before {
+      color: #999;
+      color: var(--placeholder-color);
+      content: attr(placeholder);
+    }
+
+.search-edit input[type=time][placeholder]:invalid::-webkit-datetime-edit, .search-edit input[type=datetime-local][placeholder]:invalid::-webkit-datetime-edit {
+      display: none;
+    }
+
+.search-edit input[type=time][placeholder]:invalid::before, .search-edit input[type=datetime-local][placeholder]:invalid::before {
+      color: #999;
+      color: var(--placeholder-color);
+      content: attr(placeholder);
+    }
+.search-edit .sort-box button:focus {
+    outline: none;
+}
+.search-edit {
+    width: 100%;
+    display: flex;
+    padding-bottom: 50px;
+    gap: 15px;
+    justify-content: space-between;
+        padding-top: 50px;
+}
+.search-edit input {
+    height: 45px;
+}
+.date_time input:focus, .date_time select:focus, .search-edit button, .search-edit input:focus  {
+    outline: none;
+
+}
+.date_time input, .date_time select {
+    border: none;
+    padding:5px 5px;
+    border-radius: 8px;
+}
+.date_time select {
+    width: 45%;
+}
+.date_time {
+    display: flex;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    width: 25%;
+    border-radius: 8px;
+    padding: 0px;
+}
+.city_edit{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.city_edit select {
+    padding: 10px;
+    width: 48%;
+    border: 1px solid #CCCCCC;
+    border-radius: 8px;
+}
+.city_edit input {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: left;
+    
+    padding:5px 10px;
+    border-radius: 8px;
+    width: 100%;
+    border: 1px solid #CCCCCC;
+}
+
+.search-edit button {
+    font-size: 18px;
+    background: #009DE0;
+    border-radius: 7px;
+    width: 10%;
+    border: unset;
+    color: white;
+    padding: 10px;
+}
+
+.date_time input {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    border-right: 1px solid #CCCCCC;
+    border-radius: 8px 0 0 8px;
+}
+.search_edit_edit{
+    display: none;
+}
+.filter-phone {
+    display: none;
+}
+
+
+
+.content_auth {
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cover-shadow {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #000000c2;
+}
+.form_auth {
+    padding: 30px 30px 50px;
+    background: #fff;
+    border-radius: 20px;
+}
+
+.form_auth h2 {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 28px;
+    padding-bottom: 20px;
+    color: #333333;
+}
+.fields_fm input {
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #333333;
+}
+.fields_fm label {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    margin: 0;
+    font-weight: 500;
+}
+.fields_fm {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+.fields_fm * {
+    width: 100%;
+}
+.form_auth > a {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+}
+.form_auth button {
+    display: block;
+    width: 100%;
+    background: #008aed;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: unset;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+.reg-login * {
+    color: #ececec;
+}
+.reg-login p span {
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+}
+.reg-login p {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 5px 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.reg-login button {
+    display: block;
+    padding: 10px;
+    width: 60%;
+    color: black;
+    font-weight: 500;
+    margin-bottom: 7%;
+}
+.reg-login h2 {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+    display: block;
+}
+.reg-login {
+    padding-left: 50px;
+}
+
+.flex-center{
+    display: flex;
+    align-items: center;
+}
+.form_authentication {
+    position: relative;
+    background: white;
+    padding: 30px;
+}
+.form_authentication {
+    position: relative;
+    background: white;
+    padding: 30px;
+    /* width: 50%; */
+    max-width: 100%;
+    border-radius: 20px;
+}
+.form_authentication .form-group.col-md-6.mobilecode {
+    max-width: 100% !important;
+    padding: 0;
+    margin: 0;
+}
+.form_authentication .form_auth2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.form_authentication .form_auth2 .fields_fm {
+    width: 49%;
+}
+.form_authentication span#select2-mobCode-container {
+    display: none;
+}
+
+.form_authentication select#mobCode {
+    position: absolute;
+    left: 3px;
+    border: unset;
+    padding: 5px;
+    max-width: 125px;
+        bottom: 4px;
+    background: transparent;
+}
+button.reg {
+    display: block;
+    background: #008df3;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border: unset;
+    width: 50%;
+    padding: 10px;
+    margin: 20px auto;
+}
+.full_wd {
+    display: block;
+    width: 100%;
+}
+.single_item_form {
+    display: block;
+    margin: 0 auto;
+}
+
+.form_auth3 {
+    margin-top: 20px;
+}
+
+.form_authentication h2 {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 28px;
+    padding-bottom: 0;
+}
+button {
+    cursor: pointer;
+}
+.filter_block li label {
+    cursor: pointer;
+}
+li.nav-item.dropdown.hex-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+li.nav-item.dropdown.hex-login a {
+    padding: 0 10px;
+}
+
+
+
+.filter_block select {
+    width: 100%;
+    padding: 7px 5px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    background: #f1f2f2;
+}
+.detail_page_sec {
+    display: block;
+    padding: 50px 0;
+        font-family: 'Montserrat', sans-serif;
+}
+.detail_flex {
+    width: 100%;
+    display: flex;
+    gap: 50px;
+}
+.det_img img {
+    width: 100%;
+}
+.det_img {
+    width: 45%;
+}
+.det-details {
+    width: 50%;
+    margin-left: auto;
+}
+.det-details h2 span {
+    font-size: 16px;
+    font-weight: 400;
+}
+.det-details h2 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 23px;
+    text-align: left;
+    color: #333333;
+    font-family: 'Chakra Petch', sans-serif;
+    margin: 0 !important;
+    margin-bottom: 25px !important;
+}
+.det_specification li img {
+    opacity: .8;
+}
+
+.det_specification li {
+    color: #878787;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.det_specification ul {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.rate_details_sp {
+    /* background: #eaeaea; */
+    padding: 0;
+    margin-top: 35px;
+    max-width: 300px;
+}
+.rate_details_sp span.offer_p {
+    font-size: 30px;
+}
+.rate_details_sp span.orig_p {
+    color: #9a9a9a;
+    font-size: 18px;
+    margin-left: 5px;
+}
+.rate_details_sp > div > p {
+    color: #bababa;
+    margin-top: 7px;
+}
+.rate_details_sp button {
+    padding: 10px;
+    width: 100%;
+    border: unset;
+    background: #065286;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 7px;
+}
+.flex-booking {
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+    background: #eaeaea;
+    box-shadow: 0px 4px 20px -6px #000000ed;
+    padding: 25px;
+    box-sizing: border-box;
+    margin: 50px 0 100px;
+}
+span.top-title {
+    font-size: 12px;
+    font-weight: bold;
+    color: #727272;
+}
+
+
+.booking_det div > p.ads {
+    font-weight: 400;
+    font-size: 13px;
+}
+.booking_det div > p {
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0;
+    line-height: 22px;
+    font-weight: 500;
+        max-width: 80%;
+}
+.booking_det h3 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333333;
+    margin: 25px 0 10px;
+}
+.p_loc p span {
+    font-weight: bold;
+    display: block;
+}
+.p_loc p {
+    font-size: 12px;
+}
+.p_loc i {
+    color: #5d5d5d;
+    width: 30px;
+    margin-top: 5px;
+    text-align: center;
+}
+.p_loc {
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
+        margin: 10px 0;
+}
+.pay_form_fill {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    background: #0000009e;
+    width: 100%;
+    height: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+        height: 100vh;
+}
+.show_popup_det.pay_form_fill {
+    display: flex;
+}
+.form_to_fill {
+    width: 100%;
+}
+
+.form_to_fill .form_pick {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    background: white;
+    padding: 35px;
+    box-sizing: border-box;
+}
+.fm_fld input, .fm_fld select {
+    font-size: 14px;
+    padding: 5px;
+    box-sizing: border-box;
+    color: #333333;
+    width: 100%;
+    border: 1px solid #333333;
+    border-radius: 4px;
+}
+
+.fm_fld label {
+    font-size: 16px;
+    display: block;
+    width: 100%;
+}
+.fm_fld {
+    width: 48%;
+}
+
+.form_tc {
+    padding: 25px 0;
+}
+
+.form_tc a {
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+}
+.form_tc label {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+.form_tc {
+    width: 100%;
+}
+.fm_fld.form_tc button {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    background: #008DF3;
+    border: unset;
+    color: white;
+    font-size: 17px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-weight: 500;
+}
+
+body.noscroll {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.form_to_fill {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+.close_pop i {
+    cursor: pointer;
+}
+.close_pop {
+    display: block;
+    width: 100%;
+    text-align: right;
+    font-size: 30px;
+}
+
+.content_listing.my_profile {
+    margin-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.myaccount_sidebar li a {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px 0;
+    display: block;
+    color: white !important;
+    font-weight: 500;
+}
+
+
+.myaccount_sidebar ul {
+    list-style: none;
+    padding: 0;
+        width: 100%;
+}
+.myaccount_sidebar {
+    padding: 0 !important;
+    min-height: 87vh;
+    border-radius: 0;
+    background: #065286;
+    display: flex;
+    align-items: center;
+
+    max-width: 330px;
+
+
+}
+.myaccount_sidebar li {
+    padding: 10px 20px 10px 35px;
+}
+li.active-item {
+    background: #008df3;
+}
+
+.profile-display {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+.profile-display input, .profile-display textarea , .profile-display select {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #555555;
+}
+.box_area label {
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    color: #333333;
+}
+.box_area {
+    display: block;
+    width: 49%;
+}
+.row3 {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+.row3 * {
+    width: 33%;
+}
+.box_area1 label, .box_area1 input, .box_area1 select {
+    width: 100%;
+}
+.sub_mit button {
+    width: 35%;
+    background: #008df3;
+    color: white;
+    padding: 10px;
+    border: unset;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.sub_mit {
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding: 30px 0;
+}
+.profile_det {
+    padding-left: 60px;
+    box-sizing: border-box;
+}
+
+.menu-button_p{
+    display: none;
+}
+
+
+/*.box_de_b {
+    box-shadow: 2px 2px 8px 2px rgb(0 0 0 / 29%);
+    margin: 50px 0;
+}*/
+
+
+.box_de_b > h2 {
+    display: block;
+    width: 100%;
+    font-size: 25px;
+    font-family: 'Chakra Petch', sans-serif;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    background: #065286;
+    color: white;
+}
+
+.de_info {
+    width: 100%;
+    padding: 25px;
+    box-sizing: border-box;
+}
+.cflex {
+    display: flex;
+    gap: 50px;
+    font-family: 'Montserrat', sans-serif;
+    /*align-items: flex-start;*/
+    margin: 40px 0;
+}
+.booking_details_cnfm {
+    width: 45%;
+    box-shadow: 2px 2px 8px 2px rgb(0 0 0 / 29%);
+ /*   margin: 50px 0;*/
+}
+.cin {
+    width: 50%;
+    box-shadow: 2px 2px 8px 2px rgb(0 0 0 / 29%);
+}
+span.name_v {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-style: italic;
+    font-weight: 600;
+    color: green;
+    margin-bottom: 25px;
+}
+.info_line {
+    display: flex;
+    gap: 20px;
+}
+.info_line p {
+    width: 50%;
+    color: black;
+    font-weight: 400;
+    font-size: 16px;
+}
+.info_line span {
+    width: 40%;
+    color: black;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+.cflex b{
+    font-weight: inherit;
+}
+
+.bill_info > div {
+    background: #d7d7d7;
+    width: 50%;
+    padding: 5px 15px;
+    box-sizing: border-box;
+}
+.bill_info {
+    display: flex;
+    gap: 5px;
+}
+.bill_info > div > span {
+    font-size: 12px;
+    font-weight: bold;
+    color: #727272;
+}
+.bill_info div p b {
+    font-weight: 600;
+    margin: 14px 0;
+    display: block;
+    font-size: 18px;
+    margin: 5px 0 5px;
+}
+.bill_info div p {
+    font-size: 16px;
+    margin: 0;
+}
+p.place_n {
+    font-size: 15px !important;
+    display: block;
+    margin-top: 5px !important;
+}
+.fx_d p button {
+    border: unset;
+    background: transparent;
+    border: 1px solid #065286;
+    color: #065286;
+    padding: 3px 10px;
+    font-weight: 600;
+    width: 25%;
+    font-size: 16px;
+}
+.fx_d p input {
+    padding: 2px;
+    font-size: 12px;
+    width: 75%;
+}
+.fx_d p {
+    width: 60%;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Chakra Petch', sans-serif;
+    margin: 0;
+    display: flex;
+    gap: 5px;
+}
+.fx_d span {
+    width: 40%;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Chakra Petch', sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+.fx_d {
+    display: flex;
+    margin: 10px 0;
+    line-height: 1.5;
+    align-items: center;
+    gap: 15px;
+}
+.fx_d.Total_f {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.fx_d.Total_f * {
+    font-size: 25px;
+    font-weight: 700;
+}
+button.pay_cnfm {
+    display: block;
+    width: 100%;
+    background: #008df3;
+    border: unset;
+    padding: 10px;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.rate_i {
+    padding: 20px;
+}
+.box_area.mobilecode select#mobCode {
+    border: unset;
+    background: transparent;
+    font-size: 14px;
+    max-width: 110px;
+}
+
+
+
+
+
+
+
+
+
+
+/* RESPONSIVE */
+
+
+@media only screen and (max-width: 991px) {
+    .car-list {padding-bottom: 25px;}
+    .hedear-top .active .nav-menus{
+        background-color: #fff;
+        padding-bottom: 15px !important;
+        box-shadow: none !important;
+    }
+    .app-col{flex: 0 0 100%;
+        max-width: 100%;}
+    .app-txt-head{font-size: 28px;}
+    .app-descriptiontxt{font-size: 14px;}
+    .nav-menus{background-color: #fff;
+        padding: 15px !important;
+        box-shadow: 0px 3px 6px #00000029;}
+        .hedear-top .active .nav-responsive {
+            background-color: #fff;
+            padding-bottom: 15px;
+            box-shadow: none !important;
+        }
+    .banner-registration{width: auto;
+        margin-top: 20px;}
+        .total-banner{
+            margin-bottom: 0px;
+        
+        }
+        .banner-bg{
+    margin-top: 0px;
+}
+        .rental-nav-btn {
+            margin-left: 0px !important;
+            display: flex;
+        }
+        .hex-login-dropdown{padding: 10px !important;}
+      
+        .banner-surcle-bg{z-index: -1;}
+        .banner-car-img {
+            margin-top: 0;
+        }
+        .limousine {
+            text-align: left;
+        }
+        .car-for-sale {
+            margin-top: 0;
+            text-align: left;
+        }
+        .service-txt{
+            order: 2;
+        }
+        .total-service-rightbx {
+            margin-top: 0px;
+        }
+        .features-img-bg {
+            width: 100%;
+        }
+        .towing-bx {left: 8%;}
+        .tire-bx{left: 71%;}
+        .cars {margin-bottom: 30px;}
+        .list-of-cars {
+            padding-top: 0;
+        }
+        .app{margin-top: 0;
+            height: auto;
+            background-size: 86% 100%;}
+        .app-txt-bx {
+            padding-top: 0px;
+        }
+        .limousin-bx{margin-top: 30px;}
+        .service-head{padding-top: 20px !important;}
+        .towing-txt{font-size: 12px;}
+        .service-icon {
+            width: 24px;
+        }
+        .towing-img{padding: 10px;
+            width: 50px;
+            height: 50px;}
+        .service-icon {
+            width: 20px;
+        }
+        .srviceimg-bg {
+            position: absolute;
+            top: -41px;
+            width: 60%;
+            right: 0;
+        }
+        .service {
+            padding-top: 0;}
+            .quick-service {
+                margin-top: 0;
+            }
+        .service-txt{width: 75% !important;flex: 75% !important;padding-top: 60px;}
+        .service-img{width: 25% !important;flex:25% !important;}
+        .hedear-top.active .navbar-collapse {
+            box-shadow: none;
+        }
+        .car-price-btn {padding: 5px 30px;}
+       
+}
+@media only screen and (max-width: 767px) {
+    .app-txt-head{font-size: 35px;}
+    .features{margin-bottom: 50px;}
+    .service {padding-bottom: 65px;}
+    .apple-app{padding-top: 50px;}
+    .service-txt{padding-top: 20px;}
+    .service-discription {margin-bottom: 0;}
+    .towing-bx {
+        left: 5%;
+    }
+    .carlist-background{top: -5%;}
+}
+
+@media only screen and (max-width: 575px) {
+    .app-txt-head {
+        font-size: 23px;
+    }
+}
+
+@media only screen and (max-width: 499px) {
+    .service-txt{max-width: 100% !important;flex: 100% !important;padding-top: 0px;padding: 0 60px;}
+    .service-img{max-width: 100% !important;flex:100% !important;}
+    .limousin-img{width: 100% !important;margin: auto;text-align: center;height: 300px;}
+    .service-head {font-size: 20px;}
+    /*.limousin-img{object-fit: contain !important;}*/
+    .limousin-img {
+    object-fit: cover !important;
+    max-height: 250px;
+    border-radius: 0;
+}
+}
+@media only screen and (max-width: 399px) {
+    .footer-category-col{max-width: 100%;flex: 100%;}
+    .service-txt{padding: 15px !important;}
+    .date-col{max-width: 100%;flex: 100%;}
+    .time-col{max-width: 100%;flex: 100%;}
+    .footer-submit{width: 80%;}
+    .car-price-btn {padding: 5px 15px;}
+    .jumb-start-bx {left:28% ;}
+    .towing-bx {
+        left: 0%;
+    }
+    .footer-category{margin-bottom: 5px;}
+    .footer-txt{margin-bottom: 20px;}
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+.Listing_sidebar {
+    padding: 20px 15px;
+
+}
+.Listing_sidebar > h3 {
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 35px !important;
+}
+.filter_block h4 {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 22px;
+    padding: 0 0 10px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.image_block {
+    width: 40%;
+}
+.detail_block h2 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+        margin-bottom: 20px;
+}
+.specification li {
+    font-weight: 400;
+    font-size: 12px;
+}
+span.offer_p {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    }
+.detail_block {
+    width: 60%;
+}
+.rate_details p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 26px;
+    }
+.rate_details button {
+    font-size: 15px;
+    line-height: 25px;
+    padding: 8px 13px;
+}
+.specification {
+    margin-bottom: 15px;
+}
+.search-edit input, .search-edit select {
+    font-size: 13px;
+}
+    }
+/***************/
+@media only screen and (max-width: 1024px) {
+.myaccount_sidebar {
+    display: none;
+}
+.menu-button_p{
+    display: block;
+}
+.menu-button_p button {
+    display: block;
+    border: unset;
+    font-size: 14px;
+    font-weight: bold;
+    background: #749fbc;
+    padding: 6px 20px;
+}
+.menu-button_p {
+    display: block;
+    width: 100%;
+    padding-left: 5%;
+    margin-bottom: 30px;
+}
+.myaccount_sidebar.show_sbar {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: 45px;
+    left: 5%;
+}
+.content_listing.my_profile {
+    position: relative;
+}
+.box_area {
+    width: 48%;
+}
+.profile_det {
+    padding-left: 60px;
+    box-sizing: border-box;
+    padding: 0 5%;
+    width: 100%;
+    max-width: 100% !important;
+    flex: 0 0 100%;
+}
+.hide_scroll .profile_det {
+    opacity: .5;
+}
+}
+@media only screen and (max-width: 990px) {
+.search-edit input, .search-edit select {
+    font-size: 15px;
+}
+.single_block {
+    gap: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+.detail_block {
+    width: 100%;
+}
+.image_block {
+    width: 100%;
+    max-width: 100%;
+}
+.search_edit_edit {
+    display: block;
+    margin-right: 25px;
+}
+
+.search_edit{
+    display: block;
+}
+.search-edit {
+    flex-wrap: wrap;
+}
+.search-edit {
+    flex-wrap: wrap;
+    box-shadow: 0px 4px 20px -6px rgb(0 0 0 / 25%);
+    padding: 20px;
+    width: 320px;
+    display: none;
+}
+.city_edit select {
+    width: 100%;
+}
+.city_edit {
+    flex-wrap: wrap;
+    gap: 13px;
+}
+.date_time, .city_edit, .search-edit button {
+    width: 100%;
+}
+.search-edit.show_search {
+    display: flex !important;
+    position: absolute;
+    right: 15%;
+    z-index: 9;
+    background: white;
+    top: 5%;
+}
+.content_listing {
+    position: relative;
+}
+.reg-login button {
+    padding: 10px;
+    width: 100%;
+    }
+    .reg-login {
+    padding-left: 0;
+}
+.form_auth h2 {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 24px;
+    }
+
+    .det-details h2 {
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 23px;
+}
+.det-details h2 span {
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+}
+.det_specification li {
+    font-size: 14px;
+    }
+    .rate_details_sp span.offer_p {
+    font-size: 22px;
+}
+.rate_details_sp span.orig_p {
+    color: #9a9a9a;
+    font-size: 15px;
+    }
+    .rate_details_sp {
+    margin-top: 35px;
+    max-width: 100%;
+}
+.cflex {
+    flex-wrap: wrap;
+    }
+    .cin, .booking_details_cnfm {
+    width: 100%;
+}
+}
+
+
+
+@media only screen and (max-width: 770px) {
+.listing_flex {
+    padding-left: 0;
+    }
+.filter-phone {
+    margin-right: auto;
+}
+.Listing_sidebar {
+    display: none;
+}
+.Listing_sidebar.show_filter {
+    display: block !important;
+    position: absolute;
+    z-index: 9;
+    max-width: 300px;
+    left: 15%;
+    top: 31px;
+    border-radius: 0;
+}
+.sort-box {
+    margin-top: 5%;
+}
+.filter-phone {
+    display: block;
+}
+.content_auth {
+    height: 100%;
+    padding: 50px 0;
+}
+.reg-login {
+    padding-left: 0;
+    margin-top: 50px;
+}
+.reg-login button {
+    display: block;
+    padding: 6px;
+    font-size: 14px;
+    }
+    .reg-login h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+.reg-login p {
+    gap: 5px 10px;
+    font-size: 16px;
+}
+.reg-login p span {
+    width: 100%;
+    font-size: 12px;
+    }
+    .form_auth {
+    padding: 30px 20px 30px;
+}
+.form_authentication .form_auth2 .fields_fm {
+    width: 100%;
+}
+.form_authentication h2 {
+    font-size: 25px;
+    margin: 0 0 20px;
+}
+.detail_flex {
+    gap: 25px;
+    flex-wrap: wrap;
+}
+.det_img {
+    width: 100%;
+}
+.det-details {
+    width: 100%;
+    margin-left: auto;
+}
+.flex-booking {
+    flex-wrap: wrap;
+}
+.booking_det {
+    width: 100%;
+}
+.fm_fld {
+    width: 100%;
+}
+}
+@media only screen and (max-width: 600px) {
+.rate_details {
+    flex-wrap: wrap;
+    }
+    .rate_details div {
+    width: 100%;
+}
+.rate_details button {
+    width: 100%;
+    margin-top: 15px;
+}
+.search-edit.show_search {
+    right: 5%;
+        top: 4%;
+    }
+.Listing_sidebar.show_filter {
+    display: block !important;
+    left: 5%;
+    top: 3%;
+    border-radius: 0;
+}
+.form_authentication {
+    box-sizing: border-box;
+    max-width: 90%;
+    padding: 20px;
+        margin: 0 auto;
+}
+ul > .nav-item .nav-link {
+    font-weight: 600;
+}
+ul.footer-ul {
+    margin-bottom: 30px;
+}
+ul.footer-ul li a {
+    line-height: 23px;
+    font-weight: 400;
+}
+h5.footer-category {
+    margin-bottom: 15px;
+}
+.footer-submit {
+    width: 100% !important;
+}
+.form_authentication select#mobCode {
+    position: absolute;
+    left: 3px;
+    border: unset;
+    padding: 5px;
+    max-width: 95px;
+    bottom: 4px;
+    background: transparent;
+    font-size: 12px;
+}
+.fields_fm .mobilecode input {
+    padding-left: 100px !important;
+
+}
+.list-car {
+    margin-bottom: 25px;
+}
+.box_area {
+    width: 100%;
+}
+.row3 {
+    flex-wrap: wrap;
+}
+.row3 * {
+    width: 100%;
+}
+.sub_mit button {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.myaccount_sidebar li a {
+    font-size: 16px;
+    }
+    .myaccount_sidebar.show_sbar {
+    width: 90%;
+}
+.box_de_b > h2 {
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    }
+    .info_line span {
+    font-size: 13px;
+}
+.info_line p {
+    font-size: 13px;
+}
+.de_info {
+    width: 100%;
+    padding: 10px;
+    }
+.bill_info div p b {
+    font-size: 16px;
+}
+.bill_info div p {
+    font-size: 14px;
+    }
+    p.place_n {
+    font-size: 13px !important;
+}
+.fx_d span {
+    width: 40%;
+    font-size: 15px;
+    }
+    .fx_d p {
+    font-size: 16px;
+}
+.fx_d p button {
+    padding: 3px 0px;
+    font-size: 10px;
+}
+.fx_d.Total_f * {
+    font-size: 22px;
+    }
+    button.pay_cnfm {
+    font-size: 14px !important;
+}
+}
+.errormessg{
+    font-size: x-small;
+    color: red;
+    font-family: 'Chakra Petch', sans-serif;
+}
+.car-price-btn-out{font-family: 'Chakra Petch', sans-serif;
+        padding: 5px 5px;
+        border-radius: 5px;
+        background-color: #7f8084;
+        font-size: 14px;
+        color: #fff;
+ }
+.car-price-btn-out:hover{
+    
+    text-decoration: none;
+    color: #fff;
+    cursor: not-allowed;
+}
